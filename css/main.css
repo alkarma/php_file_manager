@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&subset=cyrillic');
+h1,h2,h3{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(55,55,55);
+}
+.hide{
+	display: none;
+}
+.wrapper{	
+	background: #4CCEB2;
+ 	background: radial-gradient(#4CCEB2, #2F8FD8);
+ 	background-size: cover;
+ 	width: 100vw;
+  height: 100vh;
+	padding-top: 20px;
+}
+.header_background{
+	background: rgba(255,255,255,0.2);
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 20px 50px;
+	margin-bottom: 25px;
+}
+.content_background{
+	background: rgba(255,255,255,0.2);
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 20px 50px;
+	overflow-y: scroll;
+	min-height: 300px;
+}
+@media (min-height: 1774px){
+	.content_background{
+		max-height: 80%;
+	}
+} 
+@media (max-height: 1773px){
+	.content_background{
+		max-height: 60%;
+	}
+} 
+@media (max-height: 640px){
+	.content_background{
+		max-height: 40%;
+	}
+} 
+.file_buttons{
+	float: right;
+	margin: 0 5px;
+}
+.delete_button{
+	display: inline-block;
+	margin: 5px;
+}
+.delete_buttons{
+	position: relative;
+	left: 50%;
+	margin-left: -115px;
+}
+.home_button{
+	display: block;
+	margin: 0 auto;
+}
+.li_class{
+	display: block;
+	padding: 5px 5px 5px 15px;
+	list-style-type: none;
+	border-radius: 10px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(55,55,55);
+	font-size: 18px;
+}
+.li_class:hover{
+	background: rgba(0,0,0,0.4);
+	color: rgb(230,230,230)
+}
